@@ -1,0 +1,11 @@
+.card-1section {
+  background-image: url(../img/card-1section.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+
+.text-cards{
+    margin: 68px 128px;
+}

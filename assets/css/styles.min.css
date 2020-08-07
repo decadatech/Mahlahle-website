@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Forum&family=Overlock:ital@1&display=swap');
+
 body {
   width: 100%;
   height: 100%;
@@ -12,6 +14,13 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+
+a:hover{
+  text-decoration: none;
+  color: #779b30;
+}
+
+
 
 img {
   border-radius: 5px;
@@ -201,6 +210,24 @@ img {
 #carousel-2 {
   height: 270px;
 }
+
+button.btn-carrossel{
+  background-color: transparent;
+  border: solid 1px white;
+  color: white;
+  border-radius: 8px;
+  padding: 6px;
+  width: 120px;
+  transition: 400ms;
+}
+
+button.btn-carrossel:hover{
+  background-color: white;
+  color: grey;
+}
+
+
+
 .valorp {
   padding-top: 5% !important;
 }
@@ -210,6 +237,21 @@ img {
 }
 .visao {
   padding-top: 1% !important;
+}
+
+
+/* FOOTER */
+
+footer hr{
+  width: 90%;
+  border-color: gray;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  margin-right: 50px;
+}
+
+footer p.copyright{
+  margin-left: 120px;
 }
 
 .footer-clean {
@@ -544,3 +586,13 @@ img {
     background-color: white;
     color: gray!important;
 }
+
+.card-1section{
+  
+  width: 100%;
+  height: 650px;
+  background-color: #1f2021;
+  
+}
+
+

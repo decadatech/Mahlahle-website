@@ -1,0 +1,36 @@
+.banner {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/1.jpg);
+}
+
+
+
+.historias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+    z-index: 3;
+}
+
+.historias .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 900px;
+    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.48);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: -80px;
+}
+
+.historias .box h3{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Overlock', cursive;
+}
+
+
